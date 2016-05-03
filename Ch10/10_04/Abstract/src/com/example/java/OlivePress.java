@@ -9,7 +9,7 @@ public class OlivePress {
 	public int getOil(List<Olive> olives) {
 
 		int totalOil = 0;
-		for (Olive o : olives) {
+		for (Olive o : olives) { // list bileþenlerine ayrýldý
 			totalOil += o.crush();
 		}
 

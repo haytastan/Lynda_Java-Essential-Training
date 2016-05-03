@@ -18,7 +18,7 @@ public class Main {
         olives.add(new Ligurian());
 
         OlivePress press = new OlivePress();
-        int totalOil = press.getOil(olives);
+        int totalOil = press.getOil(olives); // list toptan yollandý
 
         System.out.println("You got " + totalOil + " units of oil");
 
