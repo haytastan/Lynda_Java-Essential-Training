@@ -28,14 +28,14 @@ public class Main {
                 if (line == null) {
                     break;
                 } else {
-                	System.out.println(line); // prints on the screen
+                	System.out.println(line); // prints on the screen (optional since we already write)
                     writer.write(line + "\n"); // writes on a new file
                     // we take the string we read and write to the target file
                     // we also passed the line feed because separation of lines were ignored
                 }
             }
             System.out.println("\nFile copied!");
-            // Alternative Way 
+            // Alternative Way ("while (true)" gereksiz olur)
 //        	String line = bReader.readLine();
 //
 //			while (line != null) {

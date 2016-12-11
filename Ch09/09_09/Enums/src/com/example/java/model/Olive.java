@@ -3,7 +3,8 @@ package com.example.java.model;
 public class Olive {
 	// OliveName: enum/enum class (also data type), name: variable of OliveName type
 	// KALAMATA: special object of OliveName type (enum constant)
-    private OliveName name = OliveName.KALAMATA;
+    // name'in variable olduðuna ve OliveName.KALAMATA ya eþit olduðuna dikkat
+    private OliveName name = OliveName.KALAMATA; // default
     // enum (OliveName) becomes type of its own (like String)
     // as well as enum class name
     private long color = 0x2E0854;
@@ -20,7 +21,7 @@ public class Olive {
     }
 
     public OliveName getName() {
-        return name;
+        return name; // enum'daki toString metodu içindeki return edilir (?)
     }
 
     public void setName(OliveName name) {

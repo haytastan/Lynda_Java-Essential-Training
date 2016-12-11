@@ -1,7 +1,7 @@
 package com.example.java.model;
 // enumun avantajý value'nun tek bir yerde toplanmasý 
 // ve metodlar ile istediðimiz biçimde print etmektir
-// An enum type is a special data type that enables for a variable 
+// An enum type is a special data type that enables for a variable
 // to be a set of predefined constants
 public enum OliveName { // OliveName: enum/enum class
 	KALAMATA("Kalamata"), LIGURIAN("Ligurian");  

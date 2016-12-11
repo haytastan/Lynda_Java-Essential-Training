@@ -15,7 +15,7 @@ public class Main {
         // which has static methods
         Path sourceFile = Paths.get("files", "loremipsum.txt");
         // We create Path object and
-        // call static get method of Paths class (polymorphism gibi)
+        // call static get method of Paths class
         Path targetFile = Paths.get("files", "target.txt");
         // files: subdirectory
         // target.txt: name of the destination file
